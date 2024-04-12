@@ -28,3 +28,6 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+springBoot {
+    mainClassName = 'es.mde.goCourt.GoCourtApplication' 
+}
