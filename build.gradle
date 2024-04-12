@@ -23,5 +23,10 @@ dependencies {
 }
 
 springBoot {
-    mainClassName = 'es.mde.goCourt.GoCourtApplication' 
+    // mainClassName se configura directamente en lugar de usando 'bootJar' task
+    mainClass = 'es.mde.goCourt.GoCourtApplication'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
 }
