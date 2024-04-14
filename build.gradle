@@ -23,7 +23,7 @@ dependencies {
 }
 
 springBoot {
-    mainClassName = 'es.mde.goCourt.GoCourtApplication'
+    mainClass = 'es.mde.goCourt.GoCourtApplication'
 }
 
 tasks.named('test') {
