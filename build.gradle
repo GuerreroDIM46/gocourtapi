@@ -22,10 +22,9 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-springBoot {
-    // mainClassName se configura directamente en lugar de usando 'bootJar' task
-    mainClass = 'es.mde.goCourt.GoCourtApplication'
-}
+// springBoot {
+//     mainClass = 'es.mde.goCourt.GoCourtApplication'
+// }
 
 tasks.named('test') {
     useJUnitPlatform()
