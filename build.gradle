@@ -31,5 +31,5 @@ tasks.named('test') {
 }
 
 tasks.named('jar') {
-enabled=false​
+enabled = false
 }
